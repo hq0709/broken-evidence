@@ -1,0 +1,100 @@
+model,axis,point,lo95,hi95,halfwidth
+Claude Opus 4.7,Acc_orig,78.67,74.33,83.0,4.33
+Claude Opus 4.7,PR,78.0,73.0,82.67,4.83
+Claude Opus 4.7,NEG,83.11,78.18,87.84,4.83
+Claude Opus 4.7,SDR,79.88,73.75,86.09,6.17
+Claude Opus 4.7,SFR_w,25.21,19.86,30.5,5.32
+Claude Opus 4.7,VGR,22.92,13.71,32.98,9.64
+Claude Opus 4.7,ROI_masked,41.67,34.57,48.69,7.06
+Claude Opus 4.7,Cap,79.91,76.58,83.58,3.5
+Claude Opus 4.7,Safe,74.79,69.2,80.08,5.44
+Claude Opus 4.7,Ground,57.29,54.19,60.56,3.19
+Claude Opus 4.7,CS,69.22,66.59,72.06,2.73
+Gemini 3.1 Flash-Lite,Acc_orig,73.0,68.0,77.67,4.83
+Gemini 3.1 Flash-Lite,PR,75.67,70.67,80.33,4.83
+Gemini 3.1 Flash-Lite,NEG,63.11,57.47,69.23,5.88
+Gemini 3.1 Flash-Lite,SDR,70.73,63.19,77.38,7.1
+Gemini 3.1 Flash-Lite,SFR_w,26.62,21.89,32.21,5.16
+Gemini 3.1 Flash-Lite,VGR,49.48,41.24,58.42,8.59
+Gemini 3.1 Flash-Lite,ROI_masked,13.54,8.5,18.32,4.91
+Gemini 3.1 Flash-Lite,Cap,70.63,66.22,74.83,4.3
+Gemini 3.1 Flash-Lite,Safe,73.38,67.78,78.05,5.14
+Gemini 3.1 Flash-Lite,Ground,56.51,52.84,58.16,2.66
+Gemini 3.1 Flash-Lite,CS,65.96,62.83,68.18,2.67
+Gemini 3 Flash,Acc_orig,77.0,72.0,81.67,4.83
+Gemini 3 Flash,PR,80.67,76.0,84.67,4.33
+Gemini 3 Flash,NEG,75.56,70.54,81.36,5.41
+Gemini 3 Flash,SDR,76.22,69.59,83.43,6.92
+Gemini 3 Flash,SFR_w,42.6,36.29,49.19,6.45
+Gemini 3 Flash,VGR,41.15,31.05,49.24,9.09
+Gemini 3 Flash,ROI_masked,28.12,22.1,34.9,6.4
+Gemini 3 Flash,Cap,77.36,73.42,81.52,4.05
+Gemini 3 Flash,Safe,57.4,50.75,63.6,6.42
+Gemini 3 Flash,Ground,59.64,56.07,62.78,3.35
+Gemini 3 Flash,CS,63.67,59.69,66.84,3.58
+GPT-5.5,Acc_orig,75.0,70.33,80.0,4.83
+GPT-5.5,PR,74.33,69.33,79.33,5.0
+GPT-5.5,NEG,68.89,62.45,74.66,6.11
+GPT-5.5,SDR,59.76,51.74,67.43,7.84
+GPT-5.5,SFR_w,39.53,33.7,45.52,5.91
+GPT-5.5,VGR,11.98,1.49,21.21,9.86
+GPT-5.5,ROI_masked,48.96,42.5,56.04,6.77
+GPT-5.5,Cap,69.49,64.75,73.61,4.43
+GPT-5.5,Safe,60.47,54.47,65.94,5.74
+GPT-5.5,Ground,55.47,52.03,58.6,3.29
+GPT-5.5,CS,61.28,58.2,64.26,3.03
+GPT-5.4,Acc_orig,68.0,63.0,72.67,4.83
+GPT-5.4,PR,68.67,63.67,73.67,5.0
+GPT-5.4,NEG,56.44,49.78,62.39,6.31
+GPT-5.4,SDR,59.76,53.38,67.46,7.04
+GPT-5.4,SFR_w,32.74,27.3,38.38,5.54
+GPT-5.4,VGR,15.62,6.43,24.5,9.03
+GPT-5.4,ROI_masked,29.17,22.87,35.08,6.1
+GPT-5.4,Cap,63.22,58.88,67.37,4.24
+GPT-5.4,Safe,67.26,61.54,72.66,5.56
+GPT-5.4,Ground,47.4,44.02,50.77,3.37
+GPT-5.4,CS,57.93,55.06,60.67,2.81
+Claude Sonnet 4.6,Acc_orig,63.33,57.33,68.33,5.5
+Claude Sonnet 4.6,PR,66.33,61.0,71.67,5.33
+Claude Sonnet 4.6,NEG,60.89,55.11,66.81,5.85
+Claude Sonnet 4.6,SDR,56.71,49.12,64.24,7.56
+Claude Sonnet 4.6,SFR_w,46.91,40.86,53.02,6.08
+Claude Sonnet 4.6,VGR,18.23,7.98,26.02,9.02
+Claude Sonnet 4.6,ROI_masked,23.96,18.0,30.46,6.23
+Claude Sonnet 4.6,Cap,61.82,57.39,66.21,4.41
+Claude Sonnet 4.6,Safe,53.09,46.93,59.06,6.07
+Claude Sonnet 4.6,Ground,46.09,42.5,49.33,3.42
+Claude Sonnet 4.6,CS,52.9,50.01,55.64,2.82
+HuatuoGPT-V 7B,Acc_orig,55.33,50.0,61.0,5.5
+HuatuoGPT-V 7B,PR,59.67,54.33,65.33,5.5
+HuatuoGPT-V 7B,NEG,26.22,20.85,31.56,5.35
+HuatuoGPT-V 7B,SDR,51.22,43.64,57.79,7.08
+HuatuoGPT-V 7B,SFR_w,39.58,33.95,45.33,5.69
+HuatuoGPT-V 7B,VGR,28.12,19.0,36.68,8.84
+HuatuoGPT-V 7B,ROI_masked,11.98,7.57,16.57,4.5
+HuatuoGPT-V 7B,Cap,48.11,44.06,52.13,4.04
+HuatuoGPT-V 7B,Safe,60.42,54.57,66.03,5.73
+HuatuoGPT-V 7B,Ground,45.05,41.58,48.5,3.46
+HuatuoGPT-V 7B,CS,50.39,47.73,53.47,2.87
+GPT-4o,Acc_orig,59.33,53.0,65.0,6.0
+GPT-4o,PR,63.33,57.0,68.33,5.67
+GPT-4o,NEG,45.78,39.17,52.05,6.44
+GPT-4o,SDR,50.61,42.42,57.86,7.72
+GPT-4o,SFR_w,63.99,57.98,69.9,5.96
+GPT-4o,VGR,3.65,-7.32,13.33,10.33
+GPT-4o,ROI_masked,36.98,30.0,43.88,6.94
+GPT-4o,Cap,54.76,50.42,58.69,4.14
+GPT-4o,Safe,36.01,30.09,41.98,5.94
+GPT-4o,Ground,45.31,41.92,48.25,3.16
+GPT-4o,CS,44.05,40.44,47.17,3.36
+Qwen3.5-9B,Acc_orig,43.33,38.0,49.33,5.67
+Qwen3.5-9B,PR,48.0,42.33,53.67,5.67
+Qwen3.5-9B,NEG,28.44,22.75,33.92,5.59
+Qwen3.5-9B,SDR,32.32,24.84,39.11,7.13
+Qwen3.5-9B,SFR_w,76.11,71.81,80.27,4.23
+Qwen3.5-9B,VGR,12.5,5.88,19.19,6.65
+Qwen3.5-9B,ROI_masked,7.29,3.59,10.86,3.63
+Qwen3.5-9B,Cap,38.02,34.2,42.77,4.28
+Qwen3.5-9B,Safe,23.89,19.55,28.15,4.3
+Qwen3.5-9B,Ground,34.9,32.4,38.17,2.89
+Qwen3.5-9B,CS,30.99,27.65,34.11,3.23

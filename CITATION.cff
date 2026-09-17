@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Medical Vision-Language Models Answer Through Broken Evidence"
+type: software
+repository-code: "https://github.com/hq0709/broken-evidence"
+license: MIT
+authors:
+  - {family-names: Jiang, given-names: Hanqi}
+  - {family-names: Chen, given-names: Junhao}
+  - {family-names: Kang, given-names: Mingyu}
+  - {family-names: Kwon, given-names: Hyeokjae}
+  - {family-names: Chen, given-names: Lifeng}
+  - {family-names: You, given-names: Weihang}
+  - {family-names: Pan, given-names: Yi}
+  - {family-names: Gong, given-names: Haozhen}
+  - {family-names: Ren, given-names: Hui}
+  - {family-names: Li, given-names: Quanzheng}
+  - {family-names: Liu, given-names: Tianming}
+  - {family-names: Li, given-names: Xiang}

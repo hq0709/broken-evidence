@@ -1,0 +1,11 @@
+variant,Spearman_with_default,Top5_overlap_5,Leader,Cap_unchanged
+"weights=default(1,2,3,5,8)",1.0,5,claude-opus-4-7,yes
+"weights=linear(1,2,3,4,5)",0.994,5,claude-opus-4-7,yes
+"weights=uniform(1,1,1,1,1)",0.985,5,claude-opus-4-7,yes
+"weights=exp(1,2,4,8,16)",1.0,5,claude-opus-4-7,yes
+"weights=skewedhi(1,1,2,5,10)",1.0,5,claude-opus-4-7,yes
+ground=default,1.0,5,claude-opus-4-7,yes
+ground=abs_vgr,1.0,5,claude-opus-4-7,yes
+ground=vgr_relu,0.994,5,claude-opus-4-7,yes
+ground=roi_only_only,0.985,5,claude-opus-4-7,yes
+ground=vgr_half,0.974,5,claude-opus-4-7,yes

@@ -1,0 +1,14 @@
+model,input,perfect_questions,n_questions,pass_rate,yes_rate
+SmolVLM2-2.2B,montage,6,7,86.4,56.4
+Qwen2.5-VL-3B,montage,7,7,100.0,42.9
+Qwen2.5-VL-7B,montage,7,7,100.0,42.9
+InternVL3-8B,montage,7,7,100.0,42.9
+Qwen3-VL-8B,montage,7,7,100.0,42.9
+InternVL3-14B,montage,7,7,100.0,42.9
+Qwen2.5-VL-32B,montage,7,7,100.0,42.9
+LLaVA-OneVision-7B,montage,7,7,100.0,42.9
+Idefics3-8B,montage,4,7,58.6,1.4
+Pixtral-12B,montage,7,7,100.0,42.9
+M3D-LaMed-Phi3-4B,native,2,7,76.4,63.6
+M3D-LaMed-Llama2-7B,native,3,7,57.1,85.7
+Med3DVLM-7B,native,4,7,57.1,0.0

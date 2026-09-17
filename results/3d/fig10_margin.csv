@@ -1,0 +1,14 @@
+model,input,perturbation,gap,flip_rate
+SmolVLM2-2.2B,montage,0.264,0.576,0.088
+Qwen2.5-VL-3B,montage,0.355,0.206,0.486
+Qwen2.5-VL-7B,montage,0.355,1.657,0.000
+InternVL3-8B,montage,0.905,0.938,30.283
+Qwen3-VL-8B,montage,2.319,1.985,77.409
+InternVL3-14B,montage,2.345,0.806,92.042
+Qwen2.5-VL-32B,montage,1.359,0.964,48.851
+LLaVA-OneVision-7B,montage,0.109,0.896,1.238
+Idefics3-8B,montage,0.674,7.158,0.000
+Pixtral-12B,montage,1.011,0.437,57.250
+M3D-LaMed-Phi3-4B,native,6.774,8.565,19.673
+M3D-LaMed-Llama2-7B,native,4.626,2.923,18.523
+Med3DVLM-7B,native,0.821,13.599,0.000

@@ -1,0 +1,22 @@
+# data placed by scripts/fetch_data.py
+data/
+suite2d/data/
+suite3d/*.jsonl
+suite3d/results_new
+suite3d/common_subset
+suite3d/cfqa_*
+suite3d/figdata
+suite3d/render_cache
+suite3d/volumes_all.json
+suite3d/families
+results/2d/baselines/
+results/2d/blur_sweep/
+suite2d/checkpoints/
+# generated
+figures/out/
+suite2d/outputs/
+outputs/
+__pycache__/
+*.pyc
+.env
+logs/

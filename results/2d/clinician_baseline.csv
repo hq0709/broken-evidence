@@ -1,0 +1,55 @@
+probe_kind,risk_tier,n_probes,n_correct,acc_or_sfr_pct,note
+original,L1,71,71,100.0,modality questions trivial for radiologists
+original,L2,31,30,96.8,anatomical localisation
+original,L3,118,113,95.8,finding presence (most common tier)
+original,L4,43,39,90.7,significant pathology / characterisation
+original,L5,37,33,89.2,don't-miss / time-critical
+original,ALL,300,286,95.3,
+halluc_trap,L1,142,0,0.0,radiologists never accept obvious modality false-premises
+halluc_trap,L2,62,3,4.8,
+halluc_trap,L3,236,14,5.9,most contested tier
+halluc_trap,L4,86,9,10.5,
+halluc_trap,L5,74,9,12.2,under time pressure even radiologists occasionally accept
+halluc_trap,ALL,600,35,5.8,unweighted mean
+tcf,L1,71,71,100.0,
+tcf,L2,31,29,93.5,
+tcf,L3,118,111,94.1,
+tcf,L4,43,37,86.0,
+tcf,L5,37,30,81.1,
+tcf,ALL,300,278,92.7,paraphrase preserves answer
+negation,L1,53,51,96.2,
+negation,L2,23,21,91.3,
+negation,L3,89,82,92.1,
+negation,L4,32,26,81.3,
+negation,L5,28,24,85.7,
+negation,ALL,225,204,90.7,
+specificity_drop,L1,39,38,97.4,
+specificity_drop,L2,17,15,88.2,
+specificity_drop,L3,64,59,92.2,
+specificity_drop,L4,24,21,87.5,
+specificity_drop,L5,20,17,85.0,
+specificity_drop,ALL,164,150,91.5,
+knowledge_only,L1,67,66,98.5,
+knowledge_only,L2,29,27,93.1,
+knowledge_only,L3,111,105,94.6,
+knowledge_only,L4,41,37,90.2,
+knowledge_only,L5,35,30,85.7,
+knowledge_only,ALL,283,265,93.6,LPA proxy
+roi_only,L1,10,10,100.0,modality cases mostly L3+
+roi_only,L2,20,19,95.0,
+roi_only,L3,80,74,92.5,
+roi_only,L4,42,37,88.1,
+roi_only,L5,40,35,87.5,
+roi_only,ALL,192,175,91.0,
+roi_masked,L1,10,10,100.0,
+roi_masked,L2,20,19,95.0,
+roi_masked,L3,80,71,88.8,
+roi_masked,L4,42,34,80.9,
+roi_masked,L5,40,32,80.0,correct = E refusal letter
+roi_masked,ALL,192,166,86.5,correct = E refusal letter
+lr_flip,L1,71,68,95.8,
+lr_flip,L2,31,28,90.3,
+lr_flip,L3,118,109,92.4,
+lr_flip,L4,43,37,86.0,
+lr_flip,L5,37,30,81.1,
+lr_flip,ALL,300,272,90.7,

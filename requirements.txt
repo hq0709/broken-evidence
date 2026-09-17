@@ -1,0 +1,23 @@
+# core analysis (CPU): reproduces every number from the released outputs
+numpy>=1.24
+scipy>=1.11
+matplotlib>=3.7
+pillow>=10.0
+pandas>=2.0
+huggingface_hub>=0.23
+
+# volumetric suite: probe generation and model runs
+nibabel>=5.2
+torch>=2.1
+transformers>=4.49
+accelerate>=0.30
+# TotalSegmentator (segmentation cache regeneration) runs in its own environment:
+#   pip install TotalSegmentator
+
+# 2D suite: API runners
+openai>=1.40
+anthropic>=0.40
+google-genai>=1.0
+# local 2D baselines use their official packages:
+#   HuatuoGPT-Vision  https://github.com/FreedomIntelligence/HuatuoGPT-Vision  (add to PYTHONPATH)
+#   LLaVA-Med         pip install git+https://github.com/microsoft/LLaVA-Med.git
