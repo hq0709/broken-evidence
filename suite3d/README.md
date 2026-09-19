@@ -7,7 +7,7 @@ balanced by construction and a model answering both members identically is not c
 
 | | |
 |---|---|
-| Sources | Medical Segmentation Decathlon: liver 118, lung 63, pancreas 281, colon 126 volumes |
+| Sources | Medical Segmentation Decathlon: liver 118, lung 63, pancreas 281, colon 125 volumes |
 | Targets | 29 structures segmented with TotalSegmentator (3 mm mode) |
 | Probes | 9,484 (8,476 growth-contact, 4,238 matched pairs), margin 2 mm, cap 40 mm |
 | Verification | reference rule re-derived from stored provenance on 8,476 / 8,476 labels |

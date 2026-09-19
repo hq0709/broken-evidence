@@ -30,7 +30,7 @@
 > **A safe clinical model must recognise when the evidence for an answer has failed.** We formalise this as an **evidence contract** and measure its violation, **silent failure**: a fluent, confident answer given through broken evidence.
 
 - 🧑‍⚕️ **2D, built by four board-certified radiologists.** 300 cases, 2,556 probes, 16 vision models. Capability and safe behaviour come apart, silent failure rises with clinical risk tier for most models, and a construction-blind radiologist leads the best model by **14.1 composite points**.
-- 🧮 **3D, built by computation.** Whether a lesion would touch the aorta after growing *g* mm follows from **one distance transform**. That gives **9,484 verifiable probes over 588 CT volumes at zero annotation cost**, each about a state that never occurred, so memorisation is excluded by construction.
+- 🧮 **3D, built by computation.** Whether a lesion would touch the aorta after growing *g* mm follows from **one distance transform**. That gives **9,484 verifiable probes over 587 CT volumes at zero annotation cost**, each about a state that never occurred, so memorisation is excluded by construction.
 - 🔬 **The failure is localised.** Models see the outlined lesion (up to **81.7%**), name the target (up to **60.0%**) and compare two numbers perfectly (**100%**), yet read distance at chance (**23.0–28.3%**, chance 25%), on CT and on a blank synthetic background alike. Their decision variable tracks the growth number in the question (AUROC up to **0.96**), not the volume (**0.46–0.53**).
 
 ---
@@ -41,14 +41,14 @@
 
 | 🧾 Scored probes | 🤖 Model configurations | 🧠 CT volumes | ✅ Verified 3D labels | 💸 3D annotation cost |
 |:---:|:---:|:---:|:---:|:---:|
-| **355,062** | **29** | **588** | **8,476 / 8,476** | **0** |
+| **355,062** | **29** | **587** | **8,476 / 8,476** | **0** |
 
 </div>
 
 | | 🩻 2D suite | 🧊 Volumetric suite |
 |---|---|---|
 | **Construction** | annotation-backed, four board-certified radiologists | simulator-backed, one Euclidean distance transform per lesion |
-| **Sources** | VQA-RAD, SLAKE, ROCO, chest radiographs (300 cases) | Medical Segmentation Decathlon liver, lung, pancreas, colon (588 volumes) |
+| **Sources** | VQA-RAD, SLAKE, ROCO, chest radiographs (300 cases) | Medical Segmentation Decathlon liver, lung, pancreas, colon (587 volumes) |
 | **Probes** | 2,556 five-option MCQ, 240 counterfactual triplets | 9,484 computed probes, 4,238 matched pairs with opposite answers |
 | **Reference** | construction-blind radiologist | reference rule re-derived from stored provenance on every label |
 | **Perturbations** | paraphrase, negation, specificity drop, knowledge-only, traps, ROI-masked, ROI-only, laterality flip | the same text operators, ROI arms, blur sweep, identification control, sub-tasks, metric-channel control, oracles |
